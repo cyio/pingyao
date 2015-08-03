@@ -1,0 +1,1 @@
+function checkScroll(){var l=2*$(".navbar").height();$(window).scrollTop()>l?$(".navbar").addClass("scrolled"):$(".navbar").removeClass("scrolled")}$(document).ready(function(){$.localScroll()}),$(".navbar").length>0&&$(window).on("scroll load resize",function(){checkScroll()});
