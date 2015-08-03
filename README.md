@@ -1,6 +1,6 @@
-DEMO��ƽң�ų�
+DEMO：平遥古城
 
-�ؼ��ʣ�
+关键词：
 - bootstrap
 - jquery
 - parallax
