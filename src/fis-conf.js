@@ -18,3 +18,10 @@
  fis.match('*.png', {
    optimizer: fis.plugin('png-compressor')
  });
+ 
+fis.hook('relative');
+
+// relative path
+fis.match('**', {
+  relative: true
+});
